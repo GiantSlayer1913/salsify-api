@@ -7,7 +7,7 @@ curl "http://localhost:4741/products/" \
 --header "Authorization: Token token=${TOKEN}" \
 --data '{
   "product": {
-    "SKU": "'${ID}'",
+    "SKU": "'${SKU}'",
     "Item Name": "'${Item_Name}'",
     "Brand": "'${Brand}'",
     "Color": "'${Color}'",
